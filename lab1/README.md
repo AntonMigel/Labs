@@ -3,7 +3,8 @@
  1 слой Flatten и 5 слоёв Dense . 
  Количество нейронов 256,128,64,32,10. 
  Функции активации relu, на выходе softmax. 
- Обучение 15 эпох: оптимизатор adam, метрика accuracy, функция потерь sparse_categorical_crossentropy
+ Обучение 10
+ эпох: оптимизатор adam, метрика accuracy, функция потерь sparse_categorical_crossentropy
  Итоговая точность на тестовой 0.4827
 
 # Графики

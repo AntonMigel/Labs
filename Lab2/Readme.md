@@ -5,5 +5,9 @@
 # Графики
 1 Вариант: 2Conv2D c размером ядра свёртки 3, 4 MaxPool2D, 1 Flatten, 1 Dense c 10 нейронами
 ![1 Вариант](/Lab2/1.jpg)
-2 Вариант: 3Conv2D c размером ядра свёртки 3, 4 MaxPool2D, 1 Flatten, 1 Dense c 10 нейронами
+2 Вариант: 3Conv2D c размером ядра свёртки 5, 4 MaxPool2D, 1 Flatten, 1 Dense c 10 нейронами
 ![2 Вариант](/Lab2/2.jpg)
+3 Вариант: 3Conv2D c размером ядра свёртки 3, 4 MaxPool2D, 1 Flatten, 1 Dense c 10 нейронами
+![3 Вариант](/Lab2/3.jpg)
+4 Вариант: 1Conv2D c размером ядра свёртки 2, 1Conv2D c размером ядра свёртки 3, 1Conv2D c размером ядра свёртки 5, 4 MaxPool2D, 1 Flatten, 1 Dense c 10 нейронами
+![3 Вариант](/Lab2/3.jpg)

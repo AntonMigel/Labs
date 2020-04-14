@@ -87,7 +87,7 @@ class Validation(tf.keras.callbacks.Callback):
 
 def build_model():
     return tf.keras.models.Sequential([
-        # Вариант 4
+        # Вариант 3
         tf.keras.layers.Input(shape=(224,224,3)),
         tf.keras.layers.Conv2D(filters=8, kernel_size=2),
         tf.keras.layers.MaxPool2D(),
@@ -99,16 +99,6 @@ def build_model():
         tf.keras.layers.MaxPool2D(),
         tf.keras.layers.Flatten(),
         tf.keras.layers.Dense(NUM_CLASSES, activation=tf.keras.activations.softmax)
-        # Вариант 3
-        #tf.keras.layers.Input(shape=(224,224,3)),
-        #tf.keras.layers.Conv2D(filters=8, kernel_size=2),
-        #tf.keras.layers.MaxPool2D(),
-        #tf.keras.layers.Conv2D(filters=8, kernel_size=3),
-        #tf.keras.layers.MaxPool2D(),
-        #tf.keras.layers.Conv2D(filters=8, kernel_size=5),
-        #tf.keras.layers.MaxPool2D(),
-        #tf.keras.layers.Flatten(),
-        #tf.keras.layers.Dense(NUM_CLASSES, activation=tf.keras.activations.softmax)
         # Вариант 2
         #tf.keras.layers.Input(shape=(224,224,3)),
         #tf.keras.layers.Conv2D(filters=8, kernel_size=3),

@@ -79,9 +79,9 @@ def create_augmented_dataset(filenames, batch_size):
 def augmented_train(image, label):
     image = tf.image.random_flip_left_right(image)
     image = tf.contrib.image.rotate(image , 60 * math.pi / 180 , interpolation='NEAREST', name = None)
-    image = tf.image.random_brightness(image, 0.6, seed=None)
-    image = tf.image.random_contrast(image, 0.3, 1.3, seed=None)
-    image = tf.image.random_crop(image,[180,180,3], seed=None,name=None)
+    image = tf.image.random_brightness(image, 0.5, seed=None)
+    image = tf.image.random_contrast(image, 0.2, 1.2, seed=None)
+    image = tf.image.random_crop(image,[120,120,3], seed=None,name=None)
     image = tf.image.resize_images(image,[224,224],
                                    method=tf.image.ResizeMethod.BILINEAR,
                                    align_corners=False,

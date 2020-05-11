@@ -7,7 +7,7 @@
 * Бирюзовый - 5 Conv2D с размером ядра свётки 3,5,5,3,7
 * Серый - 6 Conv2D с размером ядра свётки 5,3,7,7,3,5
 ### Графики
-![acc](/acc.png)
-![loss](/loss.png)
-![val_acc](/val_acc.png)
-![val_loss](/val_loss.png)
+![acc](/graf/acc.png)
+![loss](/graf/loss.png)
+![val_acc](/graf/val_acc.png)
+![val_loss](/graf/val_loss.png)
